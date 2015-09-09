@@ -20,7 +20,6 @@ $curl->get('http://sms.tsu.ge/sms/Students/StudIndCxrili.aspx');
 
 
 if ($curl->error) {
-    file_put_contents('errors.log', time().': '.$curl->error_code.PHP_EOL, FILE_APPEND);
     writeLog('info', 'Error');
     writeLog('error', $curl->error_message);
     die($curl->error_message);
