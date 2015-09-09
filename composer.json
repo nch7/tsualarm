@@ -1,0 +1,12 @@
+{
+    "name": "nickeof/tsu-alarm",
+    "authors": [
+        {
+            "name": "Nick Chikovani",
+            "email": "nikabika97@gmail.com"
+        }
+    ],
+    "require": {
+    	"curl/curl" : "1.2.*"
+    }
+}
